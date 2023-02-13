@@ -1,8 +1,8 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro2/main/ui2"))()
 local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
-NotifyLib.prompt('Moon God - Q To Lock', 'Loading..', 5)
+NotifyLib.prompt('Variant 10 - Q To Lock', 'Loading..', 5)
 NotifyLib.prompt('Sets Loaded', 'Son Them', 5)
-NotifyLib.prompt('Moon God', 'its abt time ;)', 5)
+NotifyLib.prompt('Variant 10', 'its abt time ;)', 5)
 
 
         Settings = {
@@ -12,7 +12,7 @@ NotifyLib.prompt('Moon God', 'its abt time ;)', 5)
         DOT = true,
         AIRSHOT = true,
         NOTIF = true,
-        AUTOPRED = false,
+        AUTOPRED = true,
         FOV = math.huge,
         RESOVLER = false
     }
@@ -111,7 +111,7 @@ local PredictionValue = 0.1357363
                 if Settings.rewrittenmain.NOTIF == true then
                     Plr = getClosestPlayerToCursor()
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "yarn";
+                    Title = "Variant 10";
                     Text = "Unlocked",
                     Duration = 3
                 })
@@ -122,7 +122,7 @@ local PredictionValue = 0.1357363
                 if Settings.rewrittenmain.NOTIF == true then
 
                     game.StarterGui:SetCore("SendNotification", {
-                        Title = "yarn";
+                        Title = "Variant 10";
                         Text = "Target: "..tostring(Plr.Character.Humanoid.DisplayName),
                         Duration = 3
                     })
